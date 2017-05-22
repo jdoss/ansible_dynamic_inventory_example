@@ -1,0 +1,3 @@
+---
+db: "DB Stage"
+db_private: "{{ vault_db_private }}"

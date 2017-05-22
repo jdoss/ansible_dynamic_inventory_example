@@ -1,0 +1,3 @@
+---
+all: "All Stage"
+all_secret: "{{ vault_all_secret }}"

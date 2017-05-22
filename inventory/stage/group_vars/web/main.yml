@@ -1,0 +1,3 @@
+---
+web: "Web Stage"
+web_secret: "{{ vault_web_secret }}"

@@ -1,0 +1,18 @@
+---
+
+- name: Inventoy Group Vars Example
+  hosts: all
+
+  tasks:
+
+  - name: Debug All
+    debug:
+      msg: "{{ all }} and {{ all_secret }}"
+
+  - name: Debug Web
+    debug:
+      msg: "{{ web }} and {{ web_secret }}"
+
+  - name: Debug DB
+    debug:
+      msg: "{{ db }} and {{ db_secret }}"

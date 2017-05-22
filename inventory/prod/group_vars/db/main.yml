@@ -1,0 +1,3 @@
+---
+db: "DB Prod"
+db_private: "{{ vault_all_private }}"

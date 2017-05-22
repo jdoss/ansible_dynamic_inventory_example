@@ -1,0 +1,3 @@
+---
+db: "DB Devel"
+db_private: "{{ vault_db_private }}"

@@ -1,0 +1,3 @@
+---
+web: "Web Devel"
+web_secret: "{{ vault_web_secret }}"
